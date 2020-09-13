@@ -16,4 +16,9 @@ public class MenuController : MonoBehaviour
         Application.Quit();
     }
 
+    public void undoTime ()
+    {
+        Time.timeScale = 1f;
+    }
+
 }

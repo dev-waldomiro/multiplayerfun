@@ -20,4 +20,9 @@ public class SpawnController : MonoBehaviour
         playerCharacter = GameObject.FindGameObjectWithTag(whatPlayerToFind);
     }
 
+    public void Respawn ()
+    {
+        playerCharacter.transform.position = this.gameObject.transform.position;
+    }
+
 }
